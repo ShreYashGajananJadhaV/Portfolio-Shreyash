@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from "react";
 import SkillBar from "./SkillBar";
-
-function Drawer(props) {
-  const [isOpen, setIsOpen] = React.useState(false);
-
-  useEffect(() => {
-    props.setBlurr(isOpen);
-  }, [isOpen]);
-
+import useGlobalStateManagement from "../Store";
+function Drawer() {
+  // const [isOpen, setIsOpen] = React.useState(false);
+  const toogleBlurr = useGlobalStateManagement((state) => state.toogleBlurr);
+  const blurr = useGlobalStateManagement((state) => state.blurr);
   const handleClick = () => {
-    setIsOpen(!isOpen);
+    toogleBlurr();
   };
 
   return (
@@ -44,16 +41,16 @@ function Drawer(props) {
 
       <div
         className={`z-50 fixed top-0 right-0 h-screen border rounded-lg bg-slate-900 transition duration-500 ease-in-out ${
-          isOpen
+          blurr
             ? "translate-x-0 sm:w-4/5 lg:w-1/3 md:w-1/2"
             : "translate-x-full w-0 "
         }`}
       >
         <button
           className={` p-3 rounded-full top-0 right-0 text-yellow-400 text-3xl`}
-          onClick={() => handleClick()}
+          onClick={() => toogleBlurr()}
         >
-          {isOpen ? " X " : ""}
+          {blurr ? " X " : ""}
         </button>
         <SkillBar />
       </div>

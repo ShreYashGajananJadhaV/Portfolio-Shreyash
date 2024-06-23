@@ -6,12 +6,9 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Achievements from "./Achievements";
 import MyPhoto from "../resources/MyPhoto.png";
-
-function HeroSection(props) {
-  const [blurr, setBlurr] = useState(false);
-  useEffect(() => {
-    setBlurr(props.blurr);
-  }, [props.blurr]);
+import useGlobalStateManagement from "../Store";
+function HeroSection() {
+  const blurr = useGlobalStateManagement((state) => state.blurr);
 
   return (
     <div
