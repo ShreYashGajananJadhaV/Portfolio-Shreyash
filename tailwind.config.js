@@ -5,7 +5,18 @@ module.exports = {
   ],
 
   daisyui: {
-    themes: ["light", "dark", "nord", "cupcake"],
+    themes: [
+      {
+        mytheme: {
+          "primary": "#a991f7",
+          "secondary": "#f6d860",
+          "accent": "#37cdbe",
+          "neutral": "#3d4451",
+          "base-100": "#ffffff",
+        },
+      },
+      
+      "light", "dark", "nord", "cupcake"],
   },
   plugins: [
     require('daisyui'),
