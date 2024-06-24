@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import SkillBar from "./SkillBar";
 import useGlobalStateManagement from "../Store";
+import Dropdown from "./Dropdown";
 function Drawer() {
   // const [isOpen, setIsOpen] = React.useState(false);
   const toogleBlurr = useGlobalStateManagement((state) => state.toogleBlurr);
@@ -10,7 +11,7 @@ function Drawer() {
   };
 
   return (
-    <div className=" top-0 h-1/4 p-4 border w-full bg-slate-700  ">
+    <div className=" top-0 h-1/4 p-4 w-full bg-slate-700  flex justify-evenly">
       <button
         className={`hover:animate-border-color float-right relative inline-flex items-center justify-center  px-8 py-3 overflow-hidden font-medium text-teal-300 transition duration-300 ease-out border border-teal-500 rounded-3xl shadow-md group`}
         onClick={() => {
@@ -33,12 +34,13 @@ function Drawer() {
             ></path>
           </svg>
         </span>
+
         <span className="text-lg absolute flex items-center justify-center w-full h-full text-teal-500 transition duration-300 transform group-hover:-translate-x-full ease">
           Info
         </span>
         <span className="relative invisible">Info</span>
       </button>
-
+      <Dropdown></Dropdown>
       <div
         className={`z-50 fixed top-0 right-0 h-screen border rounded-lg bg-slate-900 transition duration-500 ease-in-out ${
           blurr

@@ -12,14 +12,14 @@ function HeroSection() {
 
   return (
     <div
-      className={`App w-screen border-2 z-0 overflow-scroll  overflow-x-hidden flex flex-col p-4 ${
+      className={`App w-screen  z-0 overflow-scroll overflow-x-hidden flex flex-col p-4 ${
         blurr ? "blur-sm " : ""
       }`}
     >
-      <div className="flex flex-col p-4 justify-center items-center">
-        <div className="mb-4 w-300 animate-border-style border h-300 rounded-full overflow-hidden shadow-md">
+      <div className=" flex flex-col p-4 justify-center items-center">
+        <div className="avatar mask mask-squircle mb-4 w-[400px] h-[400px] overflow-hidden shadow-2xl">
           <img
-            className="bg-cover rounded-s-3xl w-80 h-90 transition duration-1000 ease-out hover:scale-110"
+            className="bg-cover  w-[400px] h-[400px] transition duration-1000 ease-out hover:scale-110"
             alt="My_Photo"
             src={MyPhoto}
           />
