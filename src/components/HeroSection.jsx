@@ -7,6 +7,7 @@ import Skills from "./Skills";
 import Achievements from "./Achievements";
 import MyPhoto from "../resources/MyPhoto.png";
 import useGlobalStateManagement from "../Store";
+import MainCarousel from "./MainCarousel";
 function HeroSection() {
   const blurr = useGlobalStateManagement((state) => state.blurr);
 
@@ -17,21 +18,7 @@ function HeroSection() {
       }`}
     >
       <div className=" flex flex-col p-4 justify-center items-center">
-        <div className="avatar mask mask-squircle mb-4 w-[400px] h-[400px] overflow-hidden shadow-2xl">
-          <img
-            className="bg-cover  w-[400px] h-[400px] transition duration-1000 ease-out hover:scale-110"
-            alt="My_Photo"
-            src={MyPhoto}
-          />
-        </div>
-
-        <p
-          id="abm"
-          class=" tracking-normal text-4xl mb-4 mr-2 text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400"
-        >
-          ABOUT ME
-        </p>
-
+        <MainCarousel />
         <div className="shadow-2xl leading-relaxed w-full rounded-xl p-4 hover:animate-border-color   hover:text-neutral-100 text-neutral-300 border border-transparent">
           <p>
             A software company is forming teams that consist of a specifics
