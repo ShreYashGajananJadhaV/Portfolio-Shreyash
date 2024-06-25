@@ -44,9 +44,10 @@ function HeroSection() {
       <div className="flex flex-col p-4 items-center justify-center">
         <span
           id="exp"
-          class="text-4xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400"
+          class="text-4xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 group"
         >
           EXPERIENCE
+          <div class="bg-teal-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
         </span>
 
         <div className="mb-7">
@@ -55,9 +56,10 @@ function HeroSection() {
 
         <span
           id="prj"
-          class="text-4xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400"
+          class="text-4xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 group"
         >
           PROJECTS
+          <div class="bg-teal-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
         </span>
         <div className=" mb-7 ">
           <Projects />
@@ -65,9 +67,10 @@ function HeroSection() {
 
         <span
           id="ski"
-          class="text-4xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400"
+          class="text-4xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 group"
         >
           SKILLS
+          <div class="bg-teal-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
         </span>
         <div className="mb-7 ">
           <Skills />
@@ -75,9 +78,10 @@ function HeroSection() {
 
         <span
           id="ach"
-          class="text-4xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400"
+          class="text-4xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 group"
         >
           ACHIEVEMENTS
+          <div class="bg-teal-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
         </span>
         <div className="mb-4 ">
           <Achievements />

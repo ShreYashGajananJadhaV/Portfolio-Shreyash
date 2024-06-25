@@ -2,24 +2,27 @@ import React from "react";
 import MyPhoto from "../resources/MyPhoto.png";
 export default function MainCarousel() {
   return (
-    <div className="carousel w-full  rounded-2xl shadow-2xl border-2 border-slate-700 border-slate-100">
+    <div className="carousel w-full  rounded-2xl shadow-2xl border-2 border-slate-700">
       <div id="slide1" className="carousel-item relative w-full ">
-        <section className="  md:flex md:justify-around w-[100%] py-10 px-20 ">
+        <section className="md:flex md:justify-around w-[100%] py-10 px-20 ">
           {" "}
-          <div className="avatar mask mask-squircle md:w-[400px] md:h-[400px]  overflow-hidden shadow-3xl bg-green-200 ">
+          <div className="avatar mask mask-squircle md:w-[400px] mr-5 md:h-[400px]  overflow-hidden shadow-3xl bg-green-200 ">
             <img
               className="bg-cover  w-[400px] h-[400px] transition duration-1000 ease-out hover:scale-110"
               src={MyPhoto}
             />
           </div>
-          <section className=" m-auto">
+          <section className=" m-auto ">
             <h1 className="text-5xl font-bold text-teal-600">Hi, </h1>
             <h1 className="text-4xl font-bold mt-2 text-teal-600">
-              I AM FULLSTACK DEVELOPER.
+              I AM SHREYASH JADHAV.
+            </h1>
+            <h1 className="text-4xl font-bold mt-2 text-teal-600">
+              A FULLSTACK DEVELOPER
             </h1>
             <div>
               <p className="text-xl font-bold mt-4 text-slate-500">
-                B Tech in mechanical engineering{" "}
+                B-Tech in Mechanical Engineering{" "}
               </p>
               <p className="text-xl font-bold mt-2 text-slate-500">
                 Walchand College of Engineering, Sangli

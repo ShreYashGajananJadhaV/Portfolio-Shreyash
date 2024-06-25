@@ -6,7 +6,7 @@ export default function Dropdown() {
       <div tabIndex={0} role="button" className="btn mr-3">
         Social-Media
         <svg
-          className="inline-block h-2 w-2 fill-current opacity-60"
+          className="inline-block h-3 w-3 fill-current opacity-60 animate-bounce"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 2048 2048"
         >
