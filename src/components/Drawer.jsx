@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import SkillBar from "./SkillBar";
 import useGlobalStateManagement from "../Store";
 import Dropdown from "./Dropdown";
+
 function Drawer() {
   // const [isOpen, setIsOpen] = React.useState(false);
   const toogleBlurr = useGlobalStateManagement((state) => state.toogleBlurr);

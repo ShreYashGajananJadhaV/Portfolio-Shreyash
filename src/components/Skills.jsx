@@ -100,7 +100,7 @@ function Skills() {
         </div>
 
         <div
-          className="card card-compact bg-base-100 w-auto shadow-xl transition duration-300 hover:scale-105"
+          className="card bg-base-100 w-auto shadow-xl transition duration-300 hover:scale-105"
           data-theme="sunset"
         >
           <figure className="overflow-hidden border-b-2 border-white">
@@ -132,26 +132,28 @@ function Skills() {
           </figure>
           <div className="card-body items-center">
             <h2 className="card-title text-indigo-400">Other Skills</h2>
-            <ul className="list-disc pl-4 space-y-2">
-              <li className=" hover:text-white text-neutral-300">
-                RestFul API Design and Implementation
-              </li>
-              <li className="mb-1 hover:text-white text-neutral-300">
-                Version Control: Git
-              </li>
-              <li className="mb-1 hover:text-white text-neutral-300">
-                Build Tools: Maven
-              </li>
-              <li className="mb-1 hover:text-white text-neutral-300">
-                Agile Methodologies
-              </li>
-              <li className="mb-1 hover:text-white text-neutral-300">
-                Strong Problem Solving and Trouble Shooting skills
-              </li>
-              <li className="mb-1 hover:text-white text-neutral-300">
-                Strong Team Player and Effective Communicator
-              </li>
-            </ul>
+            <div className="overflow-y-scroll h-[125px]">
+              <ul className="list-disc pl-4 space-y-2 ">
+                <li className=" hover:text-white text-neutral-300">
+                  RestFul API Design and Implementation
+                </li>
+                <li className="mb-1 hover:text-white text-neutral-300">
+                  Version Control: Git
+                </li>
+                <li className="mb-1 hover:text-white text-neutral-300">
+                  Build Tools: Maven
+                </li>
+                <li className="mb-1 hover:text-white text-neutral-300">
+                  Agile Methodologies
+                </li>
+                <li className="mb-1 hover:text-white text-neutral-300">
+                  Strong Problem Solving and Trouble Shooting skills
+                </li>
+                <li className="mb-1 hover:text-white text-neutral-300">
+                  Strong Team Player and Effective Communicator
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
