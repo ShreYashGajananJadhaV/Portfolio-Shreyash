@@ -19,26 +19,6 @@ function HeroSection() {
     >
       <div className=" flex flex-col p-4 justify-center items-center">
         <MainCarousel />
-        <div className="shadow-2xl leading-relaxed w-full rounded-xl p-4 hover:animate-border-color   hover:text-neutral-100 text-neutral-300 border border-transparent">
-          <p>
-            A software company is forming teams that consist of a specifics
-            number of employees. There are two types of employees: software
-            developers and software testers. They want to make sure the
-            developers and testers are well-integrated, so they decide to limit
-            the number of testers and developers that can be seated
-            consecutively with employees of the same type. Given the desired
-            team size and these limits, how many different ways can the company
-            form a team? Input d: the maximum number of consecutive developers
-            allowed t: the maximum number of consecutive testers allowed n: the
-            desired team size Output The number of ways to form a team modulo
-            10^9 + 7 (because the number of ways could be very large). Example
-            Let's say d = 3, t = 2, and n = 4. This means you need a team of 4
-            employees where there are fewer than 3 developers seated
-            consecutively and fewer than 2 testers seated consecutively. There
-            are 5 ways to form the team with these constraints. If 'D' denotes a
-            developer and 'T' denotes a tester, these ways are as follows:
-          </p>
-        </div>
       </div>
 
       <div className="flex flex-col p-4 items-center justify-center">

@@ -3,7 +3,7 @@ import React from "react";
 export default function Dropdown() {
   return (
     <div className="dropdown float-right">
-      <div tabIndex={0} role="button" className="btn mr-3">
+      <div tabIndex={0} role="button" className="btn mr-3 ">
         Social-Media
         <svg
           className="inline-block h-3 w-3 fill-current opacity-60 animate-bounce"

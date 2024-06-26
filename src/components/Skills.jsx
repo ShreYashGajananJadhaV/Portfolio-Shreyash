@@ -9,16 +9,16 @@ import otherskills from "../resources/otherskills.jpeg";
 function Skills() {
   return (
     <div className=" border border-transparent rounded-lg p-5 ">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-4">
         <div
-          className="card bg-base-100 w-auto shadow-xl transition duration-300 hover:scale-105"
+          className="card w-full shadow-xl transition duration-300 hover:scale-105 "
           data-theme="sunset"
         >
-          <figure className="px-10 pt-10">
+          <figure className="px-10 pt-10 ">
             <img
               src={programmingLanguages}
-              alt="programming_languages"
-              className="rounded-xl"
+              alt="programmingLanguages"
+              className="rounded-2xl w-full"
             />
           </figure>
           <div className="card-body items-center">
@@ -37,11 +37,15 @@ function Skills() {
         </div>
 
         <div
-          className="card bg-base-100  w-auto shadow-xl transition duration-300 hover:scale-105  "
+          className="card  w-auto shadow-xl transition duration-300 hover:scale-105 "
           data-theme="sunset"
         >
-          <figure className="px-10 pt-10">
-            <img src={frameworks} alt="technologies" className="rounded-xl" />
+          <figure className="px-10 pt-10 bg-white">
+            <img
+              src={frameworks}
+              alt="technologies"
+              className="rounded-2xl w-full"
+            />
           </figure>
           <div className="card-body items-center">
             <h2 className="card-title text-indigo-400">Technologies</h2>
@@ -58,8 +62,8 @@ function Skills() {
           className="card bg-base-100  w-auto shadow-xl transition duration-300 hover:scale-105"
           data-theme="sunset"
         >
-          <figure className="px-10 pt-10">
-            <img src={concepts} alt="concepts" className="rounded-xl" />
+          <figure className="px-10 pt-10 bg-slate-300">
+            <img src={concepts} alt="concepts" className="rounded-2xl " />
           </figure>
           <div className="card-body items-center ">
             <h2 className="card-title text-indigo-400">Concepts</h2>
