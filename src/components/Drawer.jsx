@@ -2,6 +2,7 @@ import React, { useCallback, useState } from "react";
 import SkillBar from "./SkillBar";
 import useGlobalStateManagement from "../Store";
 import Dropdown from "./Dropdown";
+import mylogo from "../shreyashlogo.png";
 
 function Drawer() {
   const [hovered, setHovered] = useState(false);
@@ -21,10 +22,10 @@ function Drawer() {
 
   return (
     <div className="top-0 h-1/4 py-4 px-4 w-full shadow-2xl flex justify-between">
-      <h1 className=" font-mono font-bold text-3xl text-teal-600 flex flex-row">
-        Portfolio.
-      </h1>
-      <section>
+      <section className="my-auto">
+        <img src={mylogo} className="w-[280px] h-[60px]"></img>
+      </section>
+      <section className="my-auto">
         <div
           role="button"
           tabIndex={0}
