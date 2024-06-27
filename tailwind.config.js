@@ -4,6 +4,8 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
 
+
+
   daisyui: {
     themes: [
       "light", "dark", "nord", "sunset", "cupcake", "dim", "retro","autumn", "lemonade", "dracula"]
