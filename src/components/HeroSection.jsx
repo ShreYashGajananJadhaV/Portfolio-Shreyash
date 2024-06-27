@@ -8,6 +8,7 @@ import Achievements from "./Achievements";
 import MyPhoto from "../resources/MyPhoto.png";
 import useGlobalStateManagement from "../Store";
 import MainCarousel from "./MainCarousel";
+
 function HeroSection() {
   const blurr = useGlobalStateManagement((state) => state.blurr);
 

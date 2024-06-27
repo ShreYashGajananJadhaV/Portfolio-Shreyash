@@ -1,10 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useState } from "react";
 import SkillBar from "./SkillBar";
 import useGlobalStateManagement from "../Store";
 import Dropdown from "./Dropdown";
 
 function Drawer() {
-  // const [isOpen, setIsOpen] = React.useState(false);
+  const [hovered, setHovered] = useState(false);
+
+  const handleMouseOver = useCallback(() => {
+    setHovered(true);
+  }, []);
+
+  const handleMouseOut = useCallback(() => {
+    setHovered(false);
+  }, []);
   const toogleBlurr = useGlobalStateManagement((state) => state.toogleBlurr);
   const blurr = useGlobalStateManagement((state) => state.blurr);
   const handleClick = () => {
@@ -12,8 +20,8 @@ function Drawer() {
   };
 
   return (
-    <div className="top-0 h-1/4 py-3 px-6 w-full shadow-2xl flex justify-between">
-      <h1 className="my-auto font-mono font-bold text-3xl text-teal-600">
+    <div className="top-0 h-1/4 py-4 px-4 w-full shadow-2xl flex justify-between">
+      <h1 className=" font-mono font-bold text-3xl text-teal-600 flex flex-row">
         Portfolio.
       </h1>
       <section>
@@ -57,16 +65,17 @@ function Drawer() {
           }`}
         >
           <button
-            className="btn btn-circle btn-outline left-0 ml-3 mt-3 hover:text-gray-800"
-            style={{ color: "white" }}
+            className="btn btn-circle hover:btn-ghost border-white left-0 ml-3 mt-3 "
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
             onClick={() => toogleBlurr()}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 "
+              className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="white"
+              stroke={hovered ? "black" : "white"}
             >
               <path
                 strokeLinecap="round"

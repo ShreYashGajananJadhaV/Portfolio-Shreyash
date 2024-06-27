@@ -24,7 +24,7 @@ export default function Dropdown() {
             target="_blank"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start flex items-center"
           >
-            <span class="[&>svg]:h-5 [&>svg]:w-5">
+            <span class="[&>svg]:h-5 [&>svg]:w-5 mr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -43,7 +43,7 @@ export default function Dropdown() {
             target="_blank"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start flex items-center"
           >
-            <span class="[&>svg]:h-5 [&>svg]:w-5">
+            <span class="[&>svg]:h-5 [&>svg]:w-5 mr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -62,7 +62,7 @@ export default function Dropdown() {
             target="_blank"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start flex items-center"
           >
-            <span class="[&>svg]:h-5 [&>svg]:w-5">
+            <span class="[&>svg]:h-5 [&>svg]:w-5 mr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -92,7 +92,7 @@ export default function Dropdown() {
             target="_blank"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start flex items-center"
           >
-            <span class="[&>svg]:h-5 [&>svg]:w-5">
+            <span class="[&>svg]:h-5 [&>svg]:w-5 mr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 48 48"
@@ -115,7 +115,7 @@ export default function Dropdown() {
             target="_blank"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start flex items-center"
           >
-            <span class="[&>svg]:h-5 [&>svg]:w-5">
+            <span class="[&>svg]:h-5 [&>svg]:w-5 mr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 50 50"
