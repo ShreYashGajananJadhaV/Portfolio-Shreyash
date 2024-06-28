@@ -2,23 +2,23 @@ import React, { useState, useEffect } from "react";
 import MyPhoto from "../resources/MyPhoto.png";
 import resume from "../resources/Off_Resume.pdf";
 export default function MainCarousel() {
-  const [photoColor, setPhotoColor] = useState("bg-green-200");
+  // const [photoColor, setPhotoColor] = useState("bg-green-200");
 
-  useEffect(() => {
-    const timeOutId = setTimeout(() => {
-      console.log("Inside the carousel");
-      if (photoColor === "bg-green-200") {
-        setPhotoColor("bg-blue-200");
-      } else if (photoColor === "bg-blue-200") {
-        setPhotoColor("bg-red-200");
-      } else if (photoColor === "bg-red-200") {
-        setPhotoColor("bg-voilet-200");
-      } else {
-        setPhotoColor("bg-green-200");
-      }
-    }, 1000);
-    return () => clearTimeout(timeOutId);
-  }, []);
+  // useEffect(() => {
+  //   const timeOutId = setTimeout(() => {
+  //     console.log("Inside the carousel");
+  //     if (photoColor === "bg-green-200") {
+  //       setPhotoColor("bg-blue-200");
+  //     } else if (photoColor === "bg-blue-200") {
+  //       setPhotoColor("bg-red-200");
+  //     } else if (photoColor === "bg-red-200") {
+  //       setPhotoColor("bg-voilet-200");
+  //     } else {
+  //       setPhotoColor("bg-green-200");
+  //     }
+  //   }, 1000);
+  //   return () => clearTimeout(timeOutId);
+  // }, []);
 
   const handleDownload = () => {
     const link = document.createElement("a");
@@ -36,7 +36,7 @@ export default function MainCarousel() {
         <section className="md:flex  w-[100%] py-10 px-20 ">
           {" "}
           <div
-            className={`avatar mask mask-squircle md:w-[400px] mr-5 md:h-[400px]  overflow-hidden shadow-3xl ${photoColor}`}
+            className={`avatar mask mask-squircle md:w-[400px] mr-5 md:h-[400px]  overflow-hidden shadow-3xl `}
           >
             <img
               className="bg-cover w-[400px] h-[400px] transition duration-1000 ease-out hover:scale-110"
