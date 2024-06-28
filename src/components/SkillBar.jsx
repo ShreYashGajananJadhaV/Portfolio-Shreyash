@@ -27,43 +27,34 @@ const SkillBar = () => {
   };
 
   return (
-    <div className="h-screen top-0 right-0  max-w-screen  p-8 border-color-black text-white font-semibold ">
+    <div className="h-screen top-0 right-0  max-w-screen p-8 border-color-black text-white font-semibold ">
       <div className="container mx-auto p-10">
         <div className="flex flex-col justify-center items-center">
-          <button className="text-center w-full xl" onClick={handleABMClick}>
-            <div className="mb-4  w-full ">
-              <div className="bg-yellow-500 hover:text-yellow-500 rounded-xl w-full h-full p-4 border hover:animate-border-color transition duration-1000 ease-out  hover:scale-105 hover:bg-transparent ">
-                <p className="text-lg text-center ">About Me</p>
-              </div>
-            </div>
+          <button
+            data-theme="dim"
+            onClick={handleEXPClick}
+            className=" rounded px-5 py-2.5  w-full h-full mb-4 overflow-hidden group  relative hover:bg-gradient-to-r hover:from-yellow-300 hover:to-slate-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-cyan-400 transition-all ease-out duration-300"
+          >
+            <div class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></div>
+            <span class="text-lg text-center">Experience</span>
           </button>
-          <button className="text-center w-full" onClick={handleEXPClick}>
-            <div className="mb-4  w-full">
-              <div className="bg-orange-500 hover:text-orange-500 rounded-lg w-full h-full p-4 border hover:animate-border-color transition duration-1000 ease-out  hover:scale-105 hover:bg-transparent ">
-                <p className="text-lg text-center">Experience</p>
-              </div>
-            </div>
+
+          <button
+            data-theme="dim"
+            onClick={handlePRJClick}
+            className=" rounded px-5 py-2.5  w-full h-full mb-4 overflow-hidden group  relative hover:bg-gradient-to-r hover:from-orange-400 hover:to-slate-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-cyan-400 transition-all ease-out duration-300"
+          >
+            <div class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></div>
+            <span class="text-lg text-center">Projects</span>
           </button>
-          <button className="text-center w-full" onClick={handlePRJClick}>
-            <div className="mb-4  w-full">
-              <div className="bg-blue-500 hover:text-blue-500 rounded-lg w-full h-full p-4 border hover:animate-border-color transition duration-1000 ease-out  hover:scale-105 hover:bg-transparent ">
-                <p className="text-lg text-center">Project</p>
-              </div>
-            </div>
-          </button>
-          <button className="text-center w-full" onClick={handleSKIClick}>
-            <div className="mb-4 w-full">
-              <div className="bg-green-500 hover:text-green-500 rounded-lg w-full h-full p-4 border hover:animate-border-color transition duration-1000 ease-out  hover:scale-105 hover:bg-transparent ">
-                <p className="text-lg text-center">Skills</p>
-              </div>
-            </div>
-          </button>
-          <button className="text-center w-full" onClick={handleACHClick}>
-            <div className="transition duration-1000 ease-out hover:scale-110 w-full">
-              <div className="bg-red-500 hover:text-red-500 rounded-lg w-full h-full p-4 border hover:animate-border-color transition duration-1000 ease-out  hover:scale-105 hover:bg-transparent ">
-                <p className="text-lg text-center">Achievements</p>
-              </div>
-            </div>
+
+          <button
+            data-theme="dim"
+            onClick={handleSKIClick}
+            className=" rounded px-5 py-2.5  w-full h-full mb-4 overflow-hidden group  relative hover:bg-gradient-to-r hover:from-red-400 hover:to-slate-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-cyan-400 transition-all ease-out duration-300"
+          >
+            <div class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></div>
+            <span class="text-lg text-center">Skills</span>
           </button>
         </div>
       </div>
