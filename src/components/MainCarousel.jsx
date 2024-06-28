@@ -5,17 +5,6 @@ export default function MainCarousel() {
   const [photoColor, setPhotoColor] = useState("bg-green-200");
 
   useEffect(() => {
-    // console.log("Inside the carousel");
-    // if (photoColor === "bg-green-200") {
-    //   setPhotoColor("bg-blue-200");
-    // } else if (photoColor === "bg-blue-200") {
-    //   setPhotoColor("bg-red-200");
-    // } else if (photoColor === "bg-red-200") {
-    //   setPhotoColor("bg-voilet-200");
-    // } else {
-    //   setPhotoColor("bg-green-200");
-    // }
-
     const timeOutId = setTimeout(() => {
       console.log("Inside the carousel");
       if (photoColor === "bg-green-200") {
@@ -30,6 +19,7 @@ export default function MainCarousel() {
     }, 1000);
     return () => clearTimeout(timeOutId);
   }, []);
+
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = resume;
