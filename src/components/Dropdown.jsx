@@ -21,6 +21,7 @@ export default function Dropdown() {
           <a
             href="https://www.linkedin.com/in/shreyash-jadhav-733787209/"
             aria-label="Default"
+            rel="noreferrer"
             target="_blank"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start flex items-center"
           >
@@ -40,6 +41,7 @@ export default function Dropdown() {
           <a
             href="https://github.com/ShreYashGajananJadhaV"
             aria-label="Retro"
+            rel="noreferrer"
             target="_blank"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start flex items-center"
           >
@@ -59,6 +61,7 @@ export default function Dropdown() {
           <a
             href="https://leetcode.com/u/ShreyashJadhav/"
             aria-label="Cyberpunk"
+            rel="noreferrer"
             target="_blank"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start flex items-center"
           >
@@ -89,6 +92,7 @@ export default function Dropdown() {
           <a
             href="https://www.geeksforgeeks.org/user/sj2454925/"
             aria-label="Valentine"
+            rel="noreferrer"
             target="_blank"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start flex items-center"
           >
@@ -112,6 +116,7 @@ export default function Dropdown() {
           <a
             href="https://www.codechef.com/users/shreyash_951"
             aria-label="Aqua"
+            rel="noreferrer"
             target="_blank"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start flex items-center"
           >

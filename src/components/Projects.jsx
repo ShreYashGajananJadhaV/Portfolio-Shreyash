@@ -43,14 +43,14 @@ function Projects() {
               " https://github.com/ShreYashGajananJadhaV/BankApplication.git"
             }
             target="_blank"
+            rel="noreferrer"
             class=" text-indigo-500 hover:text-indigo-700"
           >
             View Project
           </a>
         </div>
 
-        <div class="shadow-2xl border border-transparent hover:animate-border-color rounded-xl p-4 mt-3">
-          <h3 class="text-lg font-medium text-lime-100 mb-2"></h3>
+        <div className="shadow-2xl border border-transparent hover:animate-border-color rounded-xl p-4 mt-3">
           <div className="flex flex-col mb-4 ">
             <h1 className="text-lg font-medium text-indigo-400 mr-2">
               Title:{" "}
@@ -86,6 +86,7 @@ function Projects() {
           <a
             href={" https://github.com/ShreYashGajananJadhaV/Tic-Tac-Toe.git"}
             target="_blank"
+            rel="noreferrer"
             class=" text-indigo-500 hover:text-indigo-700"
           >
             View Project

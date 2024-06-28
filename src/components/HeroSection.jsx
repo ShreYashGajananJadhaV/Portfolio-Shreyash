@@ -1,11 +1,11 @@
 // HeroSection.js
-import React, { useEffect } from "react";
-import { useState } from "react";
+import React from "react";
+
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Achievements from "./Achievements";
-import MyPhoto from "../resources/MyPhoto.png";
+
 import useGlobalStateManagement from "../Store";
 import MainCarousel from "./MainCarousel";
 

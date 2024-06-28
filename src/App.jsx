@@ -2,7 +2,6 @@ import { React, useState } from "react";
 import HeroSection from "./components/HeroSection";
 
 import Drawer from "./components/Drawer";
-import { isVisible } from "@testing-library/user-event/dist/utils";
 
 function App() {
   const [blurr, setBlurr] = useState(false);
