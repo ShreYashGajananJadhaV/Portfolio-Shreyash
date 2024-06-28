@@ -16,15 +16,15 @@ const SkillBar = () => {
     element?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const handleACHClick = () => {
-    const element = document.getElementById("ach");
-    element?.scrollIntoView({ behavior: "smooth" });
-  };
+  // const handleACHClick = () => {
+  //   const element = document.getElementById("ach");
+  //   element?.scrollIntoView({ behavior: "smooth" });
+  // };
 
-  const handleABMClick = () => {
-    const element = document.getElementById("abm");
-    element?.scrollIntoView({ behavior: "smooth" });
-  };
+  // const handleABMClick = () => {
+  //   const element = document.getElementById("abm");
+  //   element?.scrollIntoView({ behavior: "smooth" });
+  // };
 
   return (
     <div className="h-screen top-0 right-0  max-w-screen p-8 border-color-black text-white font-semibold ">
