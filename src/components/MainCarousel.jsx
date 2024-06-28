@@ -39,7 +39,7 @@ export default function MainCarousel() {
             className={`avatar mask mask-squircle md:w-[400px] mr-5 md:h-[400px]  overflow-hidden shadow-3xl `}
           >
             <img
-              className="bg-cover w-[400px] h-[400px] transition duration-1000 ease-out hover:scale-110"
+              className="bg-cover w-[400px] h-[400px] transition duration-1000 ease-out hover:scale bg-green-200"
               src={MyPhoto}
               alt="MyPhoto"
             />
