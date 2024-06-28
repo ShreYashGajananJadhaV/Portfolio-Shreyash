@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import MyPhoto from "../resources/MyPhoto.png";
 import resume from "../resources/Off_Resume.pdf";
 export default function MainCarousel() {
