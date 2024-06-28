@@ -27,7 +27,7 @@ const SkillBar = () => {
   };
 
   return (
-    <div className="h-screen top-0 right-0  max-w-screen  p-8 border-color-black text-white font-semibold  bg-gray-800">
+    <div className="h-screen top-0 right-0  max-w-screen  p-8 border-color-black text-white font-semibold ">
       <div className="container mx-auto p-10">
         <div className="flex flex-col justify-center items-center">
           <button className="text-center w-full xl" onClick={handleABMClick}>

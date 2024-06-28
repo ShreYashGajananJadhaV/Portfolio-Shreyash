@@ -59,11 +59,12 @@ function Drawer() {
 
         <Dropdown></Dropdown>
         <div
-          className={`z-50 fixed top-0 right-0 h-screen border rounded-lg  transition duration-500 ease-in-out ${
+          className={`z-50 fixed top-0 right-0 h-screen border rounded-lg transition duration-500 ease-in-out ${
             blurr
               ? "translate-x-0 sm:w-4/5 lg:w-1/3 md:w-1/2"
               : "translate-x-full w-0 "
           }`}
+          data-theme="sunset"
         >
           <button
             className="btn btn-circle hover:btn-ghost border-white left-0 ml-3 mt-3 "
