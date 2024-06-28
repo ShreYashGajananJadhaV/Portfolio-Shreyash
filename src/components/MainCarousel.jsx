@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import MyPhoto from "../resources/MyPhoto.png";
 import resume from "../resources/Off_Resume.pdf";
 export default function MainCarousel() {
-  let colorArray;
   const [photoColor, setPhotoColor] = useState("bg-green-200");
 
   useEffect(() => {
@@ -52,6 +51,7 @@ export default function MainCarousel() {
             <img
               className="bg-cover w-[400px] h-[400px] transition duration-1000 ease-out hover:scale-110"
               src={MyPhoto}
+              alt="MyPhoto"
             />
           </div>
           <section className=" m-auto ">

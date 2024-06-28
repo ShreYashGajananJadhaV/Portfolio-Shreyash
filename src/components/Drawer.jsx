@@ -23,7 +23,7 @@ function Drawer() {
   return (
     <div className="top-0 h-1/4 py-4 px-4 w-full shadow-2xl flex justify-between">
       <section className="my-auto">
-        <img src={mylogo} className="w-[280px] h-[60px]"></img>
+        <img src={mylogo} alt="LOGO" className="w-[280px] h-[60px]"></img>
       </section>
       <section className="my-auto">
         <div
