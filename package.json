@@ -20,7 +20,7 @@
     "zustand": "^4.5.2"
   },
   "scripts": {
-    "lint": "eslint --silent src/**/*.{js,jsx,ts,tsx}",
+    "lint": "eslint --quite src/**/*.{js,jsx,ts,tsx}",
     "start": "react-scripts start",
     "build": "npm run lint && react-scripts build",
     "test": "react-scripts test",
