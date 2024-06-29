@@ -4,8 +4,8 @@ function Projects() {
   return (
     <div className="Projects border border-transparent rounded-lg p-5">
       <div class="flex flex-col justify-center">
-        <div class=" shadow-2xl w-full border-2 border-white hover:animate-border-color rounded-xl p-5 flex flex-row">
-          <section className="w-1/2 border-2 border-slate-800 rounded-3xl p-5">
+        <div class=" shadow-2xl w-full border-2 md:flex-row flex-col  border-white hover:animate-border-color rounded-xl p-5 flex ">
+          <section className="md:w-1/2 w-full  border-2 border-slate-800 rounded-3xl p-5">
             <div className="flex flex-col mb-4 ">
               <h1 className="text-lg font-semibold text-stone-600 ">Title: </h1>
               <p className="text-lg font-semibold  text-stone-500">
@@ -35,13 +35,12 @@ function Projects() {
               View Project
             </a>
           </section>
-
-          <section className="w-1/2 p-4 rounded-3xl ml-3 bg-red-400 shadow-xl">
+          <section className="md:w-1/2 md:mt-0 mt-3 w-full md:ml-3 ml-0 rounded-3xl  p-4 bg-red-400 shadow-xl">
             <div className="flex flex-col mb-4 p-2">
               <h1 className="text-lg font-semibold text-white mr-2">
                 Description:{" "}
               </h1>
-              <p class=" leading-relaxed text-white">
+              <p class="leading-relaxed  text-white mb-4">
                 Secured bank application developed using SpringBoot. It had
                 features like authenticating the user before giving access.
                 Create User, Create Account, Change Password, credit, debit
@@ -54,8 +53,8 @@ function Projects() {
           </section>
         </div>
 
-        <div className="shadow-2xl border-2 border-white hover:animate-border-color rounded-xl p-5 mt-3 flex ">
-          <section className="w-1/2 mr-3 p-5 rounded-3xl border-2 border-slate-800 ">
+        <div className="shadow-2xl border-2 md:flex-row flex-col border-white hover:animate-border-color rounded-xl p-5 mt-3 flex ">
+          <section className="md:w-1/2 w-full mr-3 p-5 rounded-3xl border-2 border-slate-800 ">
             <div className="flex flex-col mb-4 ">
               <h1 className="text-lg font-semibold text-stone-600 mr-2">
                 Title:{" "}
@@ -84,7 +83,7 @@ function Projects() {
               View Project
             </a>
           </section>
-          <section className="w-1/2 rounded-3xl  p-4 bg-blue-400 shadow-xl">
+          <section className="md:w-1/2 md:mt-0 mt-3 w-full rounded-3xl  p-4 bg-blue-400 shadow-xl">
             <div className="flex flex-col mb-4 p-2">
               <h1 className="text-lg font-semibold text-white mr-2">
                 Description:{" "}

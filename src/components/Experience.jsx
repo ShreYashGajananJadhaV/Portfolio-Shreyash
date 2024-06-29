@@ -2,8 +2,8 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="Experience shadow-2xl w-full rounded-xl border-2 border-white text-white p-5 mt-4 flex  ">
-      <section className="mr-3 w-1/2">
+    <div className="Experience shadow-2xl w-full rounded-xl border-2 border-white text-white p-5 mt-4 flex md:flex-row flex-col ">
+      <section className="mr-3 w-full md:w-1/2  ">
         <div className="w-full mx-auto p-4 rounded-3xl bg-white border-2 border-gray-600 shadow-lg">
           <div className="flex flex-col mb-4">
             <h1 className="text-lg font-semibold  text-stone-600">Company:</h1>
@@ -29,7 +29,7 @@ function Experience() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col mt-3 bg-red-400 rounded-3xl p-4 shadow-2xl">
+        <div className="flex sm:w-full flex-col mt-3 bg-red-400 rounded-3xl p-4 shadow-2xl">
           <h2 className="text-lg font-semibold  text-white mb-4">
             Additional:
           </h2>
@@ -41,7 +41,7 @@ function Experience() {
           </p>
         </div>
       </section>
-      <section className="w-[70%] bg-blue-400 rounded-3xl p-2  shadow-2xl">
+      <section className="w-full md:w-1/2 md:mt-0 mt-3 bg-blue-400 rounded-3xl p-2  shadow-2xl">
         <div className=" flex flex-col mb-4 p-4">
           <h2 className="text-lg font-semibold  text-white mb-4">
             Description:
