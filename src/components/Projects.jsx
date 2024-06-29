@@ -30,7 +30,7 @@ function Projects() {
               }
               target="_blank"
               rel="noreferrer"
-              class=" hover:text-blue-400 text-indigo-700"
+              class=" hover:text-blue-400 text-indigo-700 underline"
             >
               View Project
             </a>
@@ -40,7 +40,7 @@ function Projects() {
               <h1 className="text-lg font-semibold text-white mr-2">
                 Description:{" "}
               </h1>
-              <p class="leading-relaxed  text-white mb-4">
+              <p class="leading-relaxed  text-white mt-4">
                 Secured bank application developed using SpringBoot. It had
                 features like authenticating the user before giving access.
                 Create User, Create Account, Change Password, credit, debit
@@ -54,22 +54,18 @@ function Projects() {
         </div>
 
         <div className="shadow-2xl border-2 md:flex-row flex-col border-white hover:animate-border-color rounded-xl p-5 mt-3 flex ">
-          <section className="md:w-1/2 w-full mr-3 p-5 rounded-3xl border-2 border-slate-800 ">
+          <section className="md:w-1/2 w-full bg-blue-400 mr-3 p-5 rounded-3xl  ">
             <div className="flex flex-col mb-4 ">
-              <h1 className="text-lg font-semibold text-stone-600 mr-2">
-                Title:{" "}
-              </h1>
-              <p className="text-lg font-semibold text-stone-500">
+              <h1 className="text-lg font-semibold text-white mr-2">Title: </h1>
+              <p className="text-lg font-semibold text-white">
                 {" "}
                 Android Application (Tic-Tac-Toe)
               </p>
             </div>
 
             <div className="flex flex-col  ">
-              <h1 className="text-lg font-semibold text-stone-600 mr-2">
-                Tools:{" "}
-              </h1>
-              <p class="leading-relaxed  hover:text-stone-700 text-stone-500 mb-4">
+              <h1 className="text-lg font-semibold text-white mr-2">Tools: </h1>
+              <p class="leading-relaxed text-white  mb-4">
                 Android Studio, Java, OOPs, Java Swing, Java AWT.
               </p>
             </div>
@@ -78,17 +74,17 @@ function Projects() {
               href={" https://github.com/ShreYashGajananJadhaV/Tic-Tac-Toe.git"}
               target="_blank"
               rel="noreferrer"
-              class=" hover:text-blue-400 text-indigo-700"
+              class=" text-indigo-700 hover:text-white underline "
             >
               View Project
             </a>
           </section>
-          <section className="md:w-1/2 md:mt-0 mt-3 w-full rounded-3xl  p-4 bg-blue-400 shadow-xl">
+          <section className="md:w-1/2 md:mt-0 mt-3 w-full rounded-3xl  p-4 border-2 border-slate-800 shadow-xl">
             <div className="flex flex-col mb-4 p-2">
-              <h1 className="text-lg font-semibold text-white mr-2">
+              <h1 className="text-lg font-semibold text-stone-600 mr-2">
                 Description:{" "}
               </h1>
-              <p class="leading-relaxed  text-white mb-4">
+              <p class="leading-relaxed  hover:text-stone-700 text-stone-500 mt-3">
                 The Tic Tac Toe game is a game for two players, who take turns
                 marking the spaces in a 3×3 grid. The player who succeeded in
                 placing three respective marks in a horizontal, vertical, or
