@@ -6,7 +6,7 @@ export default function Dropdown() {
       <div
         tabIndex={0}
         role="button"
-        className="btn mr-3 bg-black text-white hover:bg-slate-600"
+        className="btn mr-3 bg-gray-800 text-white hover:bg-slate-600"
       >
         <span className="md:hidden">Social..</span>
         <span className="hidden md:inline">Social-Media</span>

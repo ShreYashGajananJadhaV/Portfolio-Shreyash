@@ -10,10 +10,7 @@ function Skills() {
   return (
     <div className=" border border-transparent rounded-lg p-5 ">
       <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div
-          className="card w-full shadow-xl transition duration-300 hover:scale-105 "
-          data-theme="sunset"
-        >
+        <div className="card w-full shadow-xl transition duration-300 hover:scale-105 bg-gray-800 ">
           <figure className="overflow-hidden">
             <img
               src={programmingLanguages}
@@ -37,7 +34,7 @@ function Skills() {
         </div>
 
         <div
-          className="card  w-auto shadow-xl transition duration-300 hover:scale-105 "
+          className="card  w-auto shadow-xl transition duration-300 hover:scale-105 bg-gray-800  "
           data-theme="sunset"
         >
           <figure className="overflow-hidden border-b-2 border-white">
@@ -59,7 +56,7 @@ function Skills() {
         </div>
 
         <div
-          className="card bg-base-100  w-auto shadow-xl transition duration-300 hover:scale-105"
+          className="card  w-auto shadow-xl transition duration-300 hover:scale-105 bg-gray-800 "
           data-theme="sunset"
         >
           <figure className="overflow-hidden border-b-2 border-white">
@@ -83,7 +80,7 @@ function Skills() {
         </div>
 
         <div
-          className="card bg-base-100  w-auto shadow-xl transition duration-300 hover:scale-105"
+          className="card bg-gray-800   w-auto shadow-xl transition duration-300 hover:scale-105"
           data-theme="sunset"
         >
           <figure className="overflow-hidden border-b-2 border-white">
@@ -100,7 +97,7 @@ function Skills() {
         </div>
 
         <div
-          className="card bg-base-100 w-auto shadow-xl transition duration-300 hover:scale-105"
+          className="card bg-gray-800  w-auto shadow-xl transition duration-300 hover:scale-105"
           data-theme="sunset"
         >
           <figure className="overflow-hidden border-b-2 border-white">
@@ -120,7 +117,7 @@ function Skills() {
         </div>
 
         <div
-          className="card bg-base-100 w-auto shadow-xl transition duration-300 hover:scale-105"
+          className="card bg-gray-800  w-auto shadow-xl transition duration-300 hover:scale-105"
           data-theme="sunset"
         >
           <figure className="overflow-hidden border-b-2 border-white">
