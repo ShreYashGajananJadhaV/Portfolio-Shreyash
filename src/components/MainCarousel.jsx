@@ -111,9 +111,7 @@ export default function MainCarousel() {
             id="slide1"
             class="hidden duration-700 ease-in-out"
             data-carousel-item
-          >
-            <p>I am new dkfldf</p>
-          </div>
+          ></div>
         </div>
 
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
