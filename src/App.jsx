@@ -8,7 +8,7 @@ function App() {
   return (
     <div
       className=" flex flex-col h-screen w-screen  font-mono"
-      data-theme="dracula"
+      data-theme="cupcake"
     >
       <Drawer setBlurr={setBlurr} />
       <HeroSection blurr={blurr} />

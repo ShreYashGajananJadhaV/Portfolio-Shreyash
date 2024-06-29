@@ -28,10 +28,10 @@ export default function MainCarousel() {
   };
 
   return (
-    <div className="carousel w-full  rounded-2xl shadow-2xl border-2 border-slate-700">
+    <div className="carousel w-full  rounded-2xl shadow-2xl border-2 ">
       <div
         id="slide1"
-        className="carousel-item relative w-full duration-700 ease-in-out"
+        className="carousel-item relative w-full duration-700 ease-in-out "
       >
         <section className="md:flex  w-[100%] py-10 px-20 ">
           {" "}

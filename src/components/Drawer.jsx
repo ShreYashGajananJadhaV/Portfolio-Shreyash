@@ -29,12 +29,12 @@ function Drawer() {
         <div
           role="button"
           tabIndex={0}
-          className={`btn glass float-right  items-center justify-center  px-8 py-3 overflow-hidden font-medium text-teal-300 transition duration-300 ease-out border border-teal-500 rounded-xl shadow-md group `}
+          className={`relative inline-flex float-right  items-center justify-center  px-8 py-3 overflow-hidden font-medium text-black transition duration-300 ease-out border-2 border-black rounded-xl shadow-xl group `}
           onClick={() => {
             handleClick();
           }}
         >
-          <span className="absolute flex items-center justify-center w-full h-full text-white duration-300 translate-x-full bg-teal-600 group-hover:translate-x-0 ease">
+          <span className="absolute flex inset-0 items-center justify-center w-full h-full text-black duration-300 translate-x-full bg-black group-hover:translate-x-0 ease">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -51,10 +51,10 @@ function Drawer() {
             </svg>
           </span>
 
-          <span className="text-lg absolute flex items-center justify-center w-full h-full text-teal-500 transition duration-300 transform group-hover:-translate-x-full ease ">
+          <span className=" absolute flex items-center justify-center w-full h-full text-black font-mono font-semibold transition-all duration-300 transform group-hover:-translate-x-full ease ">
             Info
           </span>
-          <span className="relative invisible">Info</span>
+          <span className="relative invisible ">Info</span>
         </div>
 
         <Dropdown></Dropdown>
@@ -67,7 +67,7 @@ function Drawer() {
           data-theme="sunset"
         >
           <button
-            className="btn btn-circle hover:btn-ghost border-white left-0 ml-3 mt-3 "
+            className="btn btn-circle hover:btn-ghost border-white left-0 ml-3 mt-3"
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
             onClick={() => toogleBlurr()}
@@ -77,7 +77,7 @@ function Drawer() {
               className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
-              stroke={hovered ? "black" : "white"}
+              stroke={hovered ? "white" : "white"}
             >
               <path
                 strokeLinecap="round"

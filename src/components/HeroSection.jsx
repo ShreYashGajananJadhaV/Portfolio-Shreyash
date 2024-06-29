@@ -18,7 +18,7 @@ function HeroSection() {
         blurr ? "blur-sm " : ""
       }`}
     >
-      <div className=" flex flex-col p-4 justify-center items-center">
+      <div className=" flex flex-col p-4 justify-center items-center ">
         <MainCarousel />
       </div>
 
