@@ -2,7 +2,6 @@ import React, { useCallback, useState } from "react";
 import SkillBar from "./SkillBar";
 import useGlobalStateManagement from "../Store";
 import Dropdown from "./Dropdown";
-import mylogo from "../shreyashlogo.png";
 
 function Drawer() {
   const [hovered, setHovered] = useState(false);
