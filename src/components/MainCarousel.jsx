@@ -36,23 +36,23 @@ export default function MainCarousel() {
         <section className="md:flex  w-[100%] py-10 px-20 ">
           {" "}
           <div
-            className={`avatar mask mask-squircle md:w-[400px] mr-5 md:h-[400px]  overflow-hidden shadow-3xl `}
+            className={`avatar mask mask-circle md:w-[400px] mr-5 md:h-[400px]  overflow-hidden shadow-3xl `}
           >
             <img
-              className="bg-cover w-[400px] h-[400px] transition duration-1000 ease-out hover:scale bg-green-200"
+              className="bg-cover w-[400px] h-[400px] transition duration-1000 ease-out hover:scale bg-gray-800"
               src={MyPhoto}
               alt="MyPhoto"
             />
           </div>
           <section className=" m-auto ">
-            <h1 className="text-5xl font-bold text-teal-600 animate-slidein300">
+            <h1 className="text-5xl font-bold text-gray-800 animate-slidein300">
               Hi,{" "}
             </h1>
 
-            <h1 className="text-4xl font-bold mt-2 text-teal-600 animate-slidein500">
+            <h1 className="text-4xl font-bold mt-2 text-gray-800 animate-slidein500">
               I AM SHREYASH JADHAV.
             </h1>
-            <h1 className="text-4xl font-bold mt-2 text-teal-600 animate-slidein500">
+            <h1 className="text-4xl font-bold mt-2 text-gray-800 animate-slidein500">
               A FULLSTACK DEVELOPER
             </h1>
             <div>
@@ -62,28 +62,48 @@ export default function MainCarousel() {
               <p className="text-xl font-bold mt-2 text-slate-500 animate-slidein700">
                 Walchand College of Engineering, Sangli
               </p>
+              {/* the tri color strip */}
+              <div class="flex h-2 border-2 border-gray-600 my-5">
+                <div class="flex-1  bg-blue-500"></div>
+                <div class="flex-1  bg-white"></div>
+                <div class="flex-1  bg-red-500"></div>
+              </div>
+
+              <div class="relative w-full h-16 overflow-hidden">
+                <div class="absolute w-full h-full flex">
+                  <div class="w-1/3 h-full bg-blue-500"></div>
+                  <div class="w-1/3 h-full bg-white"></div>
+                  <div class="w-1/3 h-full bg-red-500"></div>
+                </div>
+                <div class=" transform -rotate-10 origin-left absolute w-full h-full flex">
+                  <div class="w-1/3 h-full bg-blue-500"></div>
+                  <div class="w-1/3 h-full bg-white"></div>
+                  <div class="w-1/3 h-full bg-red-500"></div>
+                </div>
+              </div>
+
+              <button
+                class=" text-white border-2 bg-gray-800 hover:bg-gray-900   font-bold p-5 rounded-xl inline-flex items-center h-[40px] w-[300px] mt-3"
+                data-theme="nord"
+                onClick={handleDownload}
+              >
+                Click here for CV ....
+                <svg
+                  className="w-6 h-6 ml-3 animate-bounce"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    d="M12 6L12 18 17 15 7 15 12 18z"
+                  />
+                </svg>
+              </button>
             </div>
           </section>
-          <button
-            class="text-slate-900 border-2  hover:border-white hover:bg-inherit hover:text-gray-300 font-bold p-4 rounded-full inline-flex items-center h-[60px] w-[170px] "
-            data-theme="nord"
-            onClick={handleDownload}
-          >
-            Download CV
-            <svg
-              className="w-6 h-6 ml-3 animate-bounce"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-                d="M12 6L12 18 17 15 7 15 12 18z"
-              />
-            </svg>
-          </button>
         </section>
 
         <div>
