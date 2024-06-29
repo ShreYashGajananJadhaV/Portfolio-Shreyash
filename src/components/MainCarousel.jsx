@@ -31,7 +31,7 @@ export default function MainCarousel() {
     <div className="carousel w-full  rounded-2xl shadow-2xl border-2 ">
       <div
         id="slide1"
-        className="carousel-item relative w-full duration-700 ease-in-out "
+        className="carousel-item relative w-full duration-700 ease-in-out border-2 border-white"
       >
         <section className="md:flex  w-[100%] py-10 px-20 ">
           {" "}
@@ -103,7 +103,7 @@ export default function MainCarousel() {
           </a>
         </div>
       </div>
-      <div id="slide2" className="carousel-item relative w-full ">
+      <div id="slide2" className="carousel-item relative w-full border-white">
         <div className="p-5">
           <h1 className="text-3xl fond-bold ">About me :</h1>
           <p>More about about me ssection.</p>
