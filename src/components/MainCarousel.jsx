@@ -69,19 +69,6 @@ export default function MainCarousel() {
                 <div class="flex-1  bg-red-500"></div>
               </div>
 
-              <div class="relative w-full h-16 overflow-hidden">
-                <div class="absolute w-full h-full flex">
-                  <div class="w-1/3 h-full bg-blue-500"></div>
-                  <div class="w-1/3 h-full bg-white"></div>
-                  <div class="w-1/3 h-full bg-red-500"></div>
-                </div>
-                <div class=" transform -rotate-10 origin-left absolute w-full h-full flex">
-                  <div class="w-1/3 h-full bg-blue-500"></div>
-                  <div class="w-1/3 h-full bg-white"></div>
-                  <div class="w-1/3 h-full bg-red-500"></div>
-                </div>
-              </div>
-
               <button
                 class=" text-white border-2 bg-gray-800 hover:bg-gray-900   font-bold p-5 rounded-xl inline-flex items-center h-[40px] w-[300px] mt-3"
                 data-theme="nord"
