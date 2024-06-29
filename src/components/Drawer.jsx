@@ -22,9 +22,23 @@ function Drawer() {
 
   return (
     <div className="top-0 h-1/4 py-4 px-4 w-full shadow-2xl flex justify-between">
-      <section className="my-auto">
+      {/* <section className="my-auto">
         <img src={mylogo} alt="LOGO" className="w-[280px] h-[60px]"></img>
-      </section>
+      </section> */}
+      <secton className="flex justify-evenly">
+        {" "}
+        <h1 className="text-4xl  text-gray-800 font-mono font-extrabold m-auto">
+          SHREYASH.
+        </h1>
+        <div class="relative w-[150px] h-[40px] overflow-hidden m-auto">
+          {" "}
+          <div class="  absolute w-full h-full flex justify-around  ">
+            <div class="w-[55%] h-full bg-blue-500 border-2 border-gray-600 rounded-l-xl"></div>
+            <div class="w-[25%] h-full bg-white  border-2 border-gray-600 rounded-l-xl"></div>
+            <div class="w-[7%] h-full bg-red-500  border-2 border-gray-600 rounded-r-full"></div>
+          </div>
+        </div>
+      </secton>
       <section className="my-auto">
         <div
           role="button"
