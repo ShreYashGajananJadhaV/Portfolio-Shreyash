@@ -24,7 +24,7 @@ function HeroSection() {
       <div className="flex flex-col p-4 items-center justify-center">
         <span
           id="exp"
-          class="text-4xl text-transparent bg-clip-text bg-gradient-to-r to-slate-600 from-slate-700 group font-bold"
+          class="text-4xl text-transparent bg-clip-text bg-gradient-to-r to-slate-600 from-slate-700 group font-bold "
         >
           EXPERIENCE
           <div class="bg-stone-800 h-[2px] w-0 group-hover:w-full transition-all duration-500 font-bold"></div>

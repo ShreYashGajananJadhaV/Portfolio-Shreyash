@@ -8,7 +8,8 @@ export default function Dropdown() {
         role="button"
         className="btn mr-3 bg-black text-white hover:bg-slate-600"
       >
-        Social-Media
+        <span className="md:hidden">Social..</span>
+        <span className="hidden md:inline">Social-Media</span>
         <svg
           className="inline-block h-3 w-3 fill-current animate-bounce"
           xmlns="http://www.w3.org/2000/svg"
@@ -20,6 +21,7 @@ export default function Dropdown() {
           ></path>
         </svg>
       </div>
+
       <ul
         tabIndex={0}
         className="menu dropdown-content bg-base-300 rounded-box z-[1] w-52 p-2 shadow-2xl"

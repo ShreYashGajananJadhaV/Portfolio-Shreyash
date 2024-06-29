@@ -2,7 +2,7 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="Experience shadow-2xl w-full rounded-xl border-2 border-white text-white hover:animate-border-color p-4 ">
+    <div className="Experience shadow-2xl w-full rounded-xl border-2 border-white text-white p-5 mt-4 ">
       <div className="w-full mx-auto p-4 rounded ">
         <div className="flex flex-col mb-4">
           <h1 className="text-lg font-semibold  text-indigo-500">Company:</h1>
