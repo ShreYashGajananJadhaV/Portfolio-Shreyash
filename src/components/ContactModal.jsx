@@ -38,7 +38,7 @@ export default function ContactModal() {
             {/* phone section */}
             <section className="flex ">
               <FaPhoneSquareAlt className="text-xl m-auto"></FaPhoneSquareAlt>
-              <p className="m-2">+91 9511794113</p>
+              <p className="m-2">+91-9511794113</p>
             </section>
             {/* email section */}
             <section className="flex">
