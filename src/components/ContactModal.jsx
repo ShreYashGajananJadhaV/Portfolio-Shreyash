@@ -1,6 +1,6 @@
 import { useState, React } from "react";
 import { IoMdContact } from "react-icons/io";
-import { FaPhone, FaPhoneSquareAlt } from "react-icons/fa";
+import { FaPhoneSquareAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export default function ContactModal() {
