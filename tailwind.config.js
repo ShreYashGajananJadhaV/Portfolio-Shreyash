@@ -17,11 +17,11 @@ module.exports = {
     keyframes: {
       slideIn: {
         '0%': {
-          transform: 'translateY(-80px)',
+          transform: 'translateY(-20px)',
           opacity: 0,
         },
         '100%': {
-          transform: 'translateY(1)',
+          transform: 'translateY(10)',
           opacity: 1,
         },
       },
