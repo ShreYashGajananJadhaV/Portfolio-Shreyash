@@ -43,6 +43,7 @@ export default function ContactModal() {
             {/* email section */}
             <section className="flex">
               <MdEmail className="text-xl m-auto"></MdEmail>
+
               <p className="m-2">sj2454925@gmail.com</p>
             </section>
           </div>
