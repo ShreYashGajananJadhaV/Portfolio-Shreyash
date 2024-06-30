@@ -111,9 +111,22 @@ export default function MainCarousel() {
         </div>
       </div>
       <div id="slide2" className="carousel-item relative w-full border-white">
-        <div className="p-5">
+        <div className="p-10">
           <h1 className="text-3xl fond-bold ">About me :</h1>
-          <p>More about about me ssection.</p>
+          <div className="mt-4 ml-4 mr-4 rounded-3xl bg-red-400 p-5">
+            <p className="font-mono justify-evenly leading-relaxed text-base ">
+              Hello! I'm Shreyash Gajanan Jadhav. I completed my B.Tech at
+              Walchand College of Engineering, Sangli, and my 10th and 12th
+              grades in the Satara district. I have hands-on experience from my
+              internship at Atlas Primary, where I worked as a Backend Developer
+              in Java SpringBoot and an Automation Tester using Java Selenium.
+              My technical skills include Core Java, Kotlin, JavaScript,
+              SpringBoot, ReactJS, NodeJS, System Design, OOP, DSA, and DBMS. I
+              aspire to become a versatile developer, adept in both backend and
+              frontend technologies, and I am committed to continuously evolving
+              and making meaningful contributions in the tech industry..
+            </p>
+          </div>
         </div>
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
           <a href="#slide1" className="btn btn-circle">
