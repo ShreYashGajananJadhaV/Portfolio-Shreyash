@@ -3,6 +3,8 @@ import HeroSection from "./components/HeroSection";
 
 import Drawer from "./components/Drawer";
 
+import ContactModal from "./components/ContactModal";
+
 function App() {
   const [blurr, setBlurr] = useState(false);
   return (
@@ -11,6 +13,7 @@ function App() {
       data-theme="cupcake"
     >
       <Drawer setBlurr={setBlurr} />
+      <ContactModal></ContactModal>
       <HeroSection blurr={blurr} />
     </div>
   );
