@@ -45,21 +45,21 @@ export default function MainCarousel() {
             />
           </div>
           <section className=" m-auto ">
-            <h1 className="text-5xl font-bold text-gray-800 animate-slidein300">
+            <h1 className="text-5xl font-bold text-gray-800 animate-slideIn">
               Hi,{" "}
             </h1>
 
-            <h1 className="text-4xl font-bold mt-2 text-gray-800 animate-slidein500">
+            <h1 className="text-4xl font-bold mt-2 text-gray-800 animate-slideIn2">
               I AM SHREYASH JADHAV.
             </h1>
-            <h1 className="text-4xl font-bold mt-2 text-gray-800 animate-slidein500">
+            <h1 className="text-4xl font-bold mt-2 text-gray-800 animate-slideIn3">
               A FULLSTACK DEVELOPER
             </h1>
             <div>
-              <p className="text-xl font-bold mt-4 text-slate-500 animate-slidein700">
+              <p className="text-xl font-bold mt-4 text-slate-500 ">
                 B-Tech in Mechanical Engineering{" "}
               </p>
-              <p className="text-xl font-bold mt-2 text-slate-500 animate-slidein700">
+              <p className="text-xl font-bold mt-2 text-slate-500 ">
                 Walchand College of Engineering, Sangli
               </p>
               {/* the tri color strip */}

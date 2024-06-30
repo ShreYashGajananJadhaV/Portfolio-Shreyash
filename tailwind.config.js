@@ -10,25 +10,26 @@ module.exports = {
     themes: [
       "light", "dark", "nord", "sunset", "cupcake", "dim", "retro","autumn", "lemonade", "dracula"]
   },
+
+
   theme: {
   extend: {
     keyframes: {
-      slidein: {
-        from: {
-          opacity: "0",
-          transform: "translateY(-10px)",
+      slideIn: {
+        '0%': {
+          transform: 'translateY(-80px)',
+          opacity: 0,
         },
-        to: {
-          opacity: "1",
-          transform: "translateY(0)",
+        '100%': {
+          transform: 'translateY(1)',
+          opacity: 1,
         },
       },
     },
     animation: {
-      slidein300: "slidein 1s ease 1000ms",
-      slidein500: "slidein 1s ease 2000ms",
-      slidein700: "slidein 1s ease 4000ms",
-
+      slideIn: 'slideIn 4s ease-in-out',
+      slideIn2: 'slideIn 3s ease-in-out', 
+      slideIn3: 'slideIn 2s ease-in-out',  // Add duration and easing here
     },
   },
 },
