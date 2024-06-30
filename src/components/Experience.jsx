@@ -41,13 +41,13 @@ function Experience() {
           </p>
         </div>
       </section>
-      <section className="w-full md:w-1/2 md:mt-0 mt-3 bg-blue-400 rounded-3xl p-2  shadow-2xl">
+      <section className="w-full md:w-1/2 md:mt-0 mt-3 bg-blue-400 rounded-3xl p-2 shadow-2xl">
         <div className=" flex flex-col mb-4 p-4">
           <h2 className="text-lg font-semibold  text-white mb-4">
             Description:
           </h2>
 
-          <p className=" leading-relaxed text-base  text-white ">
+          <p className=" leading-relaxed text-base  text-white z-50">
             Designed and implemented various microservices, ensuring seamless
             integration and high performance. Applied robust security measures
             using Spring Security to protect the application from potential
