@@ -36,10 +36,10 @@ export default function MainCarousel() {
         <section className="md:flex  w-[100%] py-10 px-20 ">
           {" "}
           <div
-            className={`avatar mask mask-circle md:w-[400px] mr-5 md:h-[400px]  overflow-hidden shadow-3xl `}
+            className={`avatar mask mask-circle md:w-[400px] mr-5 md:h-[400px]  overflow-hidden shadow-3xl animate-fade-right`}
           >
             <img
-              className="bg-cover w-[400px] h-[400px] transition duration-1000 ease-out hover:scale bg-gray-800"
+              className="bg-cover w-[400px] h-[400px] transition duration-1000 ease-out hover:scale bg-gray-800 "
               src={MyPhoto}
               alt="MyPhoto"
             />
@@ -56,10 +56,10 @@ export default function MainCarousel() {
               A FULLSTACK DEVELOPER
             </h1>
             <div>
-              <p className="text-xl font-bold mt-4 text-slate-500 ">
+              <p className="text-xl font-bold mt-4 text-slate-500 animate-flip-down">
                 B-Tech in Mechanical Engineering{" "}
               </p>
-              <p className="text-xl font-bold mt-2 text-slate-500 ">
+              <p className="text-xl font-bold mt-2 text-slate-500 animate-flip-down ">
                 Walchand College of Engineering, Sangli
               </p>
               {/* the tri color strip */}
@@ -70,7 +70,7 @@ export default function MainCarousel() {
               </div>
 
               <button
-                class=" text-white border-2 bg-gray-800 hover:bg-gray-900   font-bold p-5 rounded-xl inline-flex items-center h-[40px] w-[300px] mt-3"
+                class=" text-white border-2 bg-gray-800 hover:bg-gray-900 animate-jump-in animate-once   font-bold p-5 rounded-xl inline-flex items-center h-[40px] w-[300px] mt-3"
                 data-theme="nord"
                 onClick={handleDownload}
               >

@@ -18,6 +18,7 @@
     "react-mailto": "^0.4.0",
     "react-script": "^2.0.5",
     "react-scripts": "^5.0.1",
+    "tailwindcss-animated": "^1.1.2",
     "web-vitals": "^2.1.4",
     "zustand": "^4.5.2"
   },

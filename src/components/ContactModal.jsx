@@ -5,26 +5,30 @@ import { MdEmail } from "react-icons/md";
 
 export default function ContactModal() {
   const dialogDiv = (
-    <div className="absolute badge badge-info gap-2 -left-20 -top-4 px-1 py-2 text-white bg-gray-800">
+    <div className=" fixed z-40 badge badge-info gap-2 -left-20 -top-4 px-1 py-2 text-white bg-gray-800">
       contacts
     </div>
   );
   const [dialog, setDialog] = useState("");
   return (
     <div>
-      <button
-        className="z-40 fixed top-32 right-8 text-5xl text-gray-800 transition animate-bounce"
-        onClick={() => document.getElementById("my_modal_3").showModal()}
-        onMouseOver={() => {
-          setDialog(dialogDiv);
-        }}
-        onMouseOut={() => {
-          setDialog("");
-        }}
-      >
-        <IoMdContact></IoMdContact>
+      <div className="z-40 fixed top-32 right-8 text-5xl text-gray-800 transition animate-jump-in">
+        <button
+          className="animate-wiggle-more animate-infinite"
+          onClick={() => document.getElementById("my_modal_3").showModal()}
+          onMouseOver={() => {
+            setDialog(dialogDiv);
+          }}
+          onMouseOut={() => {
+            setDialog("");
+          }}
+        >
+          <IoMdContact></IoMdContact>
+        </button>
         {dialog}
-      </button>
+      </div>
+
+      {dialog}
       <dialog id="my_modal_3" className="modal">
         <div className="modal-box">
           <form method="dialog">
