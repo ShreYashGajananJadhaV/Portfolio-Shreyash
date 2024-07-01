@@ -74,7 +74,7 @@ function Experience() {
         <div
           id="names"
           className={`${
-            isNameVisible ? "animate-flip-up" : "opacity-0"
+            isNameVisible ? "animate-flip-down" : "opacity-0"
           } w-full mx-auto p-4 rounded-3xl bg-white border-2 border-gray-600 shadow-lg`}
         >
           <div className="flex flex-col mb-4">
