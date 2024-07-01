@@ -12,7 +12,7 @@ export default function ContactModal() {
   const [dialog, setDialog] = useState("");
   return (
     <div>
-      <div className="z-40 fixed top-32 right-8 text-5xl text-gray-800 transition animate-jump-in">
+      <div className="z-40 fixed top-32 right-12 text-5xl text-gray-800 transition animate-jump-in">
         <button
           className="animate-wiggle-more animate-infinite"
           onClick={() => document.getElementById("my_modal_3").showModal()}
