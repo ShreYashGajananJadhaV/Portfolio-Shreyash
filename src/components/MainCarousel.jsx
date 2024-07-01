@@ -68,27 +68,28 @@ export default function MainCarousel() {
                 <div class="flex-1  bg-white"></div>
                 <div class="flex-1  bg-red-500"></div>
               </div>
-
-              <button
-                class=" text-white border-2 bg-gray-800 hover:bg-gray-900 animate-jump-in animate-once   font-bold p-5 rounded-xl inline-flex items-center h-[40px] w-[300px] mt-3"
-                data-theme="nord"
-                onClick={handleDownload}
-              >
-                Click here for CV ....
-                <svg
-                  className="w-6 h-6 ml-3 animate-bounce"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+              <div className="animate-jump-in animate-once">
+                <button
+                  class=" text-white border-2 bg-gray-800 hover:bg-gray-900 hover:animate-none animate-pulse animate-infinite font-bold p-5 rounded-xl inline-flex items-center h-[40px] w-[300px] mt-3"
+                  data-theme="nord"
+                  onClick={handleDownload}
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="3"
-                    d="M12 6L12 18 17 15 7 15 12 18z"
-                  />
-                </svg>
-              </button>
+                  Click here for CV ....
+                  <svg
+                    className="w-6 h-6 ml-3 "
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      d="M12 6L12 18 17 15 7 15 12 18z"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
           </section>
         </section>
