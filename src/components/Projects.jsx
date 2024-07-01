@@ -94,7 +94,7 @@ function Projects() {
           <section
             id="prj1"
             className={`${
-              isP1Visible ? "animate-flip-down" : "opacity-0"
+              isP1Visible ? "animate-flip-down animate-ease-in" : "opacity-0"
             } md:w-1/2 w-full  border-2 border-slate-800 rounded-3xl p-5`}
           >
             <div className={`flex flex-col mb-4 `}>
@@ -129,7 +129,7 @@ function Projects() {
           <section
             id="desc1"
             className={`${
-              isD1Visible ? "animate-fade-left" : "opacity-0"
+              isD1Visible ? "animate-fade-left animate-ease-in" : "opacity-0"
             } md:w-1/2 md:mt-0 mt-3 w-full md:ml-3 ml-0 rounded-3xl  p-4 bg-red-400 shadow-xl`}
           >
             <div className="flex flex-col mb-4 p-2">
@@ -153,7 +153,7 @@ function Projects() {
           <section
             id="prj2"
             className={`${
-              isP2Visible ? "animate-fade-right" : "opacity-0"
+              isP2Visible ? "animate-fade-right animate-ease-in" : "opacity-0"
             } md:w-1/2 w-full bg-blue-400 mr-3 p-5 rounded-3xl  `}
           >
             <div className="flex flex-col mb-4 ">
@@ -183,7 +183,7 @@ function Projects() {
           <section
             id="desc2"
             className={`${
-              isD2Visible ? "animate-flip-down" : "opacity-0"
+              isD2Visible ? "animate-flip-down animate-ease-in" : "opacity-0"
             } md:w-1/2 md:mt-0 mt-3 w-full rounded-3xl  p-4 border-2 border-slate-800 shadow-xl`}
           >
             <div className="flex flex-col mb-4 p-2">

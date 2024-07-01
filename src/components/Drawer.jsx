@@ -26,7 +26,7 @@ function Drawer() {
       </section> */}
       <secton className="flex justify-evenly">
         {" "}
-        <h1 className="text-4xl  text-gray-800 font-mono font-extrabold m-auto">
+        <h1 className="text-4xl animate-rotate-x animate-duration-[900ms] animate-ease-in text-gray-800 font-mono font-extrabold m-auto">
           SHREYASH.
         </h1>
         <div class="relative w-[150px] h-[40px] overflow-hidden m-auto">

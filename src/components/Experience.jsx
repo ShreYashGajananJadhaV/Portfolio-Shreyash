@@ -74,7 +74,7 @@ function Experience() {
         <div
           id="names"
           className={`${
-            isNameVisible ? "animate-flip-down" : "opacity-0"
+            isNameVisible ? "animate-flip-down animate-ease-in" : "opacity-0"
           } w-full mx-auto p-4 rounded-3xl bg-white border-2 border-gray-600 shadow-lg`}
         >
           <div className="flex flex-col mb-4">
@@ -104,7 +104,7 @@ function Experience() {
         <div
           id="addi"
           className={`${
-            isADDVisible ? "animate-fade-right animate-once" : "opacity-0"
+            isADDVisible ? "animate-fade-right animate-ease-in" : "opacity-0"
           } flex sm:w-full flex-col mt-3 bg-red-400 rounded-3xl p-4 shadow-2xl`}
         >
           <h2 className="text-lg font-semibold  text-white mb-4">
@@ -121,7 +121,7 @@ function Experience() {
       <section
         id="my-div"
         className={`${
-          isVisible ? "animate-fade-left animate-once" : "opacity-0"
+          isVisible ? "animate-fade-left animate-ease-in" : "opacity-0"
         } w-full md:w-1/2 md:mt-0 mt-3 bg-blue-400 rounded-3xl p-2 shadow-2xl`}
       >
         <div className=" flex flex-col mb-4 p-4">
