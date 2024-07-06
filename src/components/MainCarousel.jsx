@@ -1,25 +1,7 @@
 import React from "react";
 import MyPhoto from "../resources/MyPhoto.png";
-import resume from "../resources/Off_Resume.pdf";
+import resume from "../resources/ShreyashNResume.pdf";
 export default function MainCarousel() {
-  // const [photoColor, setPhotoColor] = useState("bg-green-200");
-
-  // useEffect(() => {
-  //   const timeOutId = setTimeout(() => {
-  //     console.log("Inside the carousel");
-  //     if (photoColor === "bg-green-200") {
-  //       setPhotoColor("bg-blue-200");
-  //     } else if (photoColor === "bg-blue-200") {
-  //       setPhotoColor("bg-red-200");
-  //     } else if (photoColor === "bg-red-200") {
-  //       setPhotoColor("bg-voilet-200");
-  //     } else {
-  //       setPhotoColor("bg-green-200");
-  //     }
-  //   }, 1000);
-  //   return () => clearTimeout(timeOutId);
-  // }, []);
-
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = resume;
