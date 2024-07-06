@@ -42,13 +42,16 @@ export default function ContactModal() {
             {/* phone section */}
             <section className="flex ">
               <FaPhoneSquareAlt className="text-xl m-auto"></FaPhoneSquareAlt>
-              <p className="m-2">+91-9511794113</p>
+              <a href="tel:9511794113" className="m-2">
+                +91-9511794113
+              </a>
             </section>
             {/* email section */}
             <section className="flex">
               <MdEmail className="text-xl m-auto"></MdEmail>
-
-              <p className="m-2">sj2454925@gmail.com</p>
+              <a href="mailto:sj2454925@gmail.com" className="m-2">
+                sj2454925@gmail.com
+              </a>
             </section>
           </div>
         </div>
