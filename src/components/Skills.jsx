@@ -65,10 +65,11 @@ function Skills() {
           <div className="card-body">
             <h2 className="card-title text-black">Concepts</h2>
             <ul className="list-disc pl-4 space-y-2">
-              <li className="text-gray-800">DSA</li>
-              <li className="text-gray-800">OOPs</li>
+              <li className="text-gray-800">Data Structures and Algorithms</li>
+              <li className="text-gray-800">Object Oriented Programming</li>
+              <li className="text-gray-800">Operating System</li>
               <li className="text-gray-800">System Design</li>
-              <li className="text-gray-800">DBMS</li>
+              <li className="text-gray-800">Database Management System</li>
             </ul>
           </div>
         </div>
