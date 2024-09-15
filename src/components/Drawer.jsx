@@ -24,9 +24,9 @@ function Drawer() {
       {/* <section className="my-auto">
         <img src={mylogo} alt="LOGO" className="w-[280px] h-[60px]"></img>
       </section> */}
-      <secton className="flex justify-evenly">
+      <section className="sm:flex-row flex flex-col justify-evenly">
         {" "}
-        <h1 className="text-4xl animate-rotate-x animate-duration-[900ms] animate-ease-in text-gray-800 font-mono font-extrabold m-auto">
+        <h1 className="text-4xl  animate-rotate-x animate-duration-[900ms] animate-ease-in text-gray-800 font-mono font-extrabold m-auto">
           SHREYASH.
         </h1>
         <div class="relative w-[150px] h-[40px] overflow-hidden m-auto">
@@ -37,40 +37,42 @@ function Drawer() {
             <div class="w-[7%] h-full bg-red-500  border-2 border-gray-600 rounded-r-full"></div>
           </div>
         </div>
-      </secton>
+      </section>
       <section className="my-auto">
-        <div
-          role="button"
-          tabIndex={0}
-          className={`relative inline-flex float-right  items-center justify-center  px-8 py-3 overflow-hidden font-medium text-black transition duration-300 ease-out border-2 border-black rounded-xl shadow-xl group `}
-          onClick={() => {
-            handleClick();
-          }}
-        >
-          <span className="absolute flex inset-0 items-center justify-center w-full h-full text-black duration-300 translate-x-full bg-black group-hover:translate-x-0 ease">
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="white"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M8 5l-7 7m0 0l7 7m-7-7H17"
-              ></path>
-            </svg>
-          </span>
+        <div className="flex-col sm:flex justify-evenly">
+          <div
+            role="button"
+            tabIndex={0}
+            className={`relative  inline-flex float-right  items-center justify-center  px-8 py-3 overflow-hidden font-medium text-black transition duration-300 ease-out border-2 border-black rounded-xl shadow-xl group `}
+            onClick={() => {
+              handleClick();
+            }}
+          >
+            <span className="absolute flex inset-0 items-center justify-center w-full h-full text-black duration-300 translate-x-full bg-black group-hover:translate-x-0 ease">
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="white"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M8 5l-7 7m0 0l7 7m-7-7H17"
+                ></path>
+              </svg>
+            </span>
 
-          <span className=" absolute flex items-center justify-center w-full h-full text-black font-mono font-semibold transition-all duration-300 transform group-hover:-translate-x-full ease ">
-            Info
-          </span>
-          <span className="relative invisible ">Info</span>
+            <span className=" absolute flex items-center justify-center w-full h-full text-black font-mono font-semibold transition-all duration-300 transform group-hover:-translate-x-full ease ">
+              Info
+            </span>
+            <span className="relative invisible ">Info</span>
+          </div>
+
+          <Dropdown></Dropdown>
         </div>
-
-        <Dropdown></Dropdown>
         <div
           className={`z-50 fixed top-0 right-0 h-screen border rounded-lg transition duration-500 ease-in-out ${
             blurr
