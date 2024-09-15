@@ -39,11 +39,13 @@ function Drawer() {
         </div>
       </section>
       <section className="my-auto">
-        <div className=" flex flex-col justify-evenly">
+        <div className=" flex sm:flex-row flex-col justify-evenly">
+          <Dropdown></Dropdown>
+
           <div
             role="button"
             tabIndex={0}
-            className={`relative mb-2 inline-flex float-right  items-center justify-center  px-8 py-3 overflow-hidden font-medium text-black transition duration-300 ease-out border-2 border-black mr-3 rounded-xl shadow-xl group `}
+            className={`relative mt-2 sm:mt-0 inline-flex float-right  items-center justify-center  px-8 py-3 overflow-hidden font-medium text-black transition duration-300 ease-out border-2 border-black mr-3 rounded-xl shadow-xl group `}
             onClick={() => {
               handleClick();
             }}
@@ -70,8 +72,6 @@ function Drawer() {
             </span>
             <span className="relative invisible ">Info</span>
           </div>
-
-          <Dropdown></Dropdown>
         </div>
         <div
           className={`z-50 fixed top-0 right-0 h-screen border rounded-lg transition duration-500 ease-in-out ${
