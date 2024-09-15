@@ -52,11 +52,11 @@ export default function MainCarousel() {
               </div>
               <div className="animate-jump-in animate-once">
                 <button
-                  class=" text-white border-2 bg-gray-800 hover:bg-gray-900 hover:animate-none animate-pulse animate-infinite font-bold p-5 rounded-xl inline-flex items-center h-[40px] w-[300px] mt-3"
+                  class=" text-white border-2  bg-gray-800 hover:bg-gray-900 hover:animate-none animate-pulse animate-infinite font-bold p-7 rounded-xl inline-flex items-center h-[40px]  mt-3"
                   data-theme="nord"
                   onClick={handleDownload}
                 >
-                  Click here for CV ....
+                  Resume Download
                   <svg
                     className="w-6 h-6 ml-3 "
                     fill="none"
