@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ShreYashGajananJadhaV.github.io/Portfolio-Shreyash",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -24,6 +25,8 @@
     "zustand": "^4.5.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint --quiet src/**/*.{js,jsx,ts,tsx}",
     "start": "react-scripts start",
     "build": "npm run lint && react-scripts build",
