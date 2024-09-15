@@ -39,11 +39,11 @@ function Drawer() {
         </div>
       </section>
       <section className="my-auto">
-        <div className="flex-col sm:flex justify-evenly">
+        <div className=" flex flex-col justify-evenly">
           <div
             role="button"
             tabIndex={0}
-            className={`relative  inline-flex float-right  items-center justify-center  px-8 py-3 overflow-hidden font-medium text-black transition duration-300 ease-out border-2 border-black rounded-xl shadow-xl group `}
+            className={`relative mb-2 inline-flex float-right  items-center justify-center  px-8 py-3 overflow-hidden font-medium text-black transition duration-300 ease-out border-2 border-black mr-3 rounded-xl shadow-xl group `}
             onClick={() => {
               handleClick();
             }}
