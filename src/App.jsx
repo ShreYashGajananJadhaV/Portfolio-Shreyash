@@ -9,7 +9,7 @@ function App() {
   const [blurr, setBlurr] = useState(false);
   return (
     <div
-      className=" flex flex-col h-screen w-screen  font-mono"
+      className=" w-auto h-auto flex flex-col   font-mono"
       data-theme="cupcake"
     >
       <Drawer setBlurr={setBlurr} />

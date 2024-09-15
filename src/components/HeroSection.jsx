@@ -1,4 +1,3 @@
-// HeroSection.js
 import React from "react";
 
 import Experience from "./Experience";
