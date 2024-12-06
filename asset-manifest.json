@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Portfolio-Shreyash/static/css/main.3b38c739.css",
-    "main.js": "/Portfolio-Shreyash/static/js/main.ca31eca9.js",
+    "main.js": "/Portfolio-Shreyash/static/js/main.738e6782.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio-Shreyash/static/js/453.1407b060.chunk.js",
-    "static/media/ShreyashNResume.pdf": "/Portfolio-Shreyash/static/media/ShreyashNResume.a450a715495769e91ff7.pdf",
     "static/media/MyPhoto.png": "/Portfolio-Shreyash/static/media/MyPhoto.cb771b5cafde5832855c.png",
+    "static/media/Shreyash_Resume_2024.pdf": "/Portfolio-Shreyash/static/media/Shreyash_Resume_2024.5ea8373d060d3595168b.pdf",
     "static/media/Programming_languages.jpeg": "/Portfolio-Shreyash/static/media/Programming_languages.442864d9f7f40caeef7a.jpeg",
     "static/media/databases.jpeg": "/Portfolio-Shreyash/static/media/databases.379d10998357d43d9503.jpeg",
     "static/media/otherskills.jpeg": "/Portfolio-Shreyash/static/media/otherskills.1d92e2b63a566dcc56dc.jpeg",
     "index.html": "/Portfolio-Shreyash/index.html",
     "main.3b38c739.css.map": "/Portfolio-Shreyash/static/css/main.3b38c739.css.map",
-    "main.ca31eca9.js.map": "/Portfolio-Shreyash/static/js/main.ca31eca9.js.map",
+    "main.738e6782.js.map": "/Portfolio-Shreyash/static/js/main.738e6782.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio-Shreyash/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b38c739.css",
-    "static/js/main.ca31eca9.js"
+    "static/js/main.738e6782.js"
   ]
 }
