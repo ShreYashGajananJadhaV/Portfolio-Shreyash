@@ -1,11 +1,11 @@
 import React from "react";
 import MyPhoto from "../resources/MyPhoto.png";
-import resume from "../resources/ShreyashNResume.pdf";
+import resume from "../resources/Shreyash_Resume_2024.pdf";
 export default function MainCarousel() {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "Shreyash_Resume.pdf";
+    link.download = "Shreyash_CV.pdf";
     link.click();
   };
 
